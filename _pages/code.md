@@ -8,6 +8,12 @@ nav: true
 
 🛠️ Page under construction!
 
+<p align="left">
+  <a href="https://github.com/mbarbetti"><img align="center" src="https://github-readme-stats.vercel.app/api?username=mbarbetti&show_icons=true&include_all_commits=false&count_private=true&hide_title=false&hide_border=true&hide_rank=false&icon_color=#00CCFF&title_color=#00CCFF"/></a><br>
+<a href="https://github.com/mbarbetti"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mbarbetti&hide=jupyter%20notebook&layout=compact&langs_count=10&hide_title=false&hide_border=true&icon_color=#00CCFF&title_color=#00CCFF"/></a><br>
+  <a href="https://wakatime.com/@mbarbetti"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@mbarbetti&&langs_count=5&v=2&hide_title=false&hide_border=true&icon_color=#00CCFF&title_color=#00CCFF&card_width=80"/></a>
+</p>
+
 <div class="table-responsive-vertical shadow-z-1">
   <table class="table table-hover table-mc-light-blue">
     <thead>
