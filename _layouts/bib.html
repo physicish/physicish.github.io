@@ -23,8 +23,6 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
-        {%- endif -%}
-        </div>
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
@@ -32,6 +30,22 @@
         <div class="title">{{entry.title}}</div>
         <!-- Author -->
         <div class="author">
+        {%- if entry.collaboration -%}
+          {%- assign collaboration = entry.collaboration -%}
+          {%- assign collaboration_url = nil -%}
+          {%- if site.data.collaborations[collaboration] -%}
+            {%- assign collaboration_url = site.data.collaborations[collaboration].url -%}
+          {%- endif -%}
+          {%- if collaboration_url -%}
+            <a href="{{collaboration_url}}">{{collaboration}}</a>
+          {%- else -%}
+            {{collaboration}}
+          {%- endif -%}
+          {%- if entry.author != "null" -%}
+            {{ ": " }}
+          {%- endif -%}
+        {%- endif -%}
+
         {% assign author_array_size = entry.author_array | size %}
 
         {% assign author_array_limit = author_array_size %}
@@ -110,16 +124,20 @@
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
-          {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- if entry.volume -%}
+            {%- capture entrytype -%}{{entry.journal}} <strong>{{entry.volume}}</strong> ({{entry.year}}) {{entry.pages}} – Published on{%- endcapture -%}
+          {%- else -%}
+            {%- capture entrytype -%}{{entry.journal}} – Submitted on{%- endcapture -%}
+            {%- endif -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}in <em>{{entry.booktitle}}</em>, {{entry.series}} – Published on{%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
-          {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}<em>{{entry.school}}</em> – Discussed on{%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
         {%- if entry.month -%}
-          {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
+          {%- capture entrymonth -%}{{ " " }}{{entry.day}} {{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
         {%- endif -%}
         {%- if entry.year -%}
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
@@ -145,7 +163,7 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
@@ -164,6 +182,9 @@
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
+          {%- if entry.data -%}
+            <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
+          {%- endif -%}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
@@ -216,18 +237,18 @@
           </div>
           {%- endif %}
 
-          {% if entry.abstract -%}
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>{{ entry.abstract }}</p>
-          </div>
-          {%- endif -%}
+    {%- if entry.abstract -%}
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>{{ entry.abstract }}</p>
+    </div>
+    {%- endif -%}
 
-          {% if entry.bibtex_show -%}
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
-          </div>
-          {%- endif %}
-        </div>
-      </div>
+    {%- if entry.bibtex_show -%}
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      {%- highlight bibtex -%}{{ entry.bibtex | hideCustomBibtex }}{%- endhighlight -%}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
