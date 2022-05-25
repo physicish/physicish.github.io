@@ -6,10 +6,10 @@ layout: parse
 
   <!-- Head -->
   <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
-  {%- endif -%}
-  {% include head.html %}
+    {%- if page.redirect -%}
+      <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
+    {%- endif -%}
+    {% include head.html %}
   </head>
 
   <!-- Body -->

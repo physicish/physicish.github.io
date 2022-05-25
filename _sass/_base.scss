@@ -93,13 +93,16 @@ blockquote {
 // Profile
 
 .profile {
+  margin-right: 0rem;
   margin-left: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
   width: 100%;
-
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 1.2rem;
     p {
       display: inline-block;
       margin: 0;
@@ -127,7 +130,6 @@ blockquote {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -191,7 +193,7 @@ blockquote {
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-hover-color);
         }
       }
     }
@@ -256,8 +258,8 @@ blockquote {
   }
 }
 
-
 // Footer
+
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
@@ -277,11 +279,19 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--global-text-color);
+  a {
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: none;
+    }
+  }
 }
-
 
 // Blog
 
@@ -344,7 +354,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -353,7 +362,6 @@ footer.sticky-bottom {
     text-decoration: none;
   }
 }
-
 
 // Projects
 
@@ -399,29 +407,35 @@ footer.sticky-bottom {
   }
 }
 
-
 // Publications
 
 .publications {
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    // font-size: 2rem;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
   }
   h2 {
     margin-bottom: 1rem;
+    font-size: 2rem;
     span {
       font-size: 1.5rem;
     }
+  }
+  h2.pub-type {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    color: var(--global-theme-color);
+    text-align: center;
   }
   h2.year {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: -2rem;
     text-align: right;
   }
@@ -454,6 +468,7 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        font-size: 1rem;
       }
       .author {
         a {
@@ -477,8 +492,8 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-hover-color);
+            border-color: var(--global-hover-color);
           }
         }
       }
@@ -522,6 +537,7 @@ footer.sticky-bottom {
 }
 
 // Rouge Color Customization
+
 figure.highlight {
   margin: 0 0 1rem;
 }
@@ -545,8 +561,8 @@ code {
   padding: 3px 3px;
 }
 
-
 // Transitioning Themes
+
 html.transition,
 html.transition *,
 html.transition *:before,
@@ -556,6 +572,7 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
+
 .post{
   .post-meta{
     color: var(--global-text-color-light);
@@ -579,6 +596,57 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
+    }
+  }
+}
+
+// About header
+
+.about-header {
+  text-align: center;
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+  }
+  .about-desc {
+    font-size: 0.9rem;
+    margin-bottom: 1.8rem;
+    color: var(--global-text-color-light);
+    a {
+      color: var(--global-text-color-light);
+      &:hover {
+        text-decoration: none;
+        color: var(--global-hover-color);
+      }
+    }
+  }
+}
+
+// News
+
+.news {
+  margin-top: 2rem;
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  table {
+    tr {
+      th {
+        // vertical-align: top;
+        // text-align: left;
+        width: 15%;
+        color: var(--global-text-color);
+      }
+      td {
+        // vertical-align: top;
+        text-align: justify;
+        font-size: 1rem;
+        color: var(--global-text-color);
+      }
     }
   }
 }
