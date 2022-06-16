@@ -1,20 +1,26 @@
 "arXiv":
-  - url: https://arxiv.org/
+  url: https://arxiv.org/
 
 "JHEP":
-  - url: https://www.springer.com/journal/13130
+  url: https://www.springer.com/journal/13130
 
 "PRD":
-  - url: https://journals.aps.org/prd/
+  url: https://journals.aps.org/prd/
 
 "JINST":
-  - url: https://iopscience.iop.org/journal/1748-0221
+  url: https://iopscience.iop.org/journal/1748-0221
 
 "PRL":
-  - url: https://journals.aps.org/prl/
+  url: https://journals.aps.org/prl/
 
 "Sci. Bull.":
-  - url: https://www.sciencedirect.com/journal/science-bulletin
+  url: https://www.sciencedirect.com/journal/science-bulletin
 
 "EPJC":
-  - url: https://www.springer.com/journal/10052
+  url: https://www.springer.com/journal/10052
+
+"Nat. Phys.":
+  url: https://www.nature.com/nphys
+
+"Nat. Commun.":
+  url: https://www.nature.com/ncomms
