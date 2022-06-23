@@ -1,9 +1,9 @@
 ---
 layout: page
-title: tf-gen-models
-description: Ready to use implementations of state-of-the-art generative models in TensorFlow 2
-img: assets/img/tfg-logo.png
-importance: 2
+title: TorchGen
+description: Ready to use implementations of state-of-the-art generative models in PyTorch
+img: assets/img/torchgen-logo.png
+importance: 1
 category: research
 ---
 
