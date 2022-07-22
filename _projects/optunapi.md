@@ -3,7 +3,7 @@ layout: page
 title: OptunAPI
 description: API to distribute hyperparameters optimization through HTTP requests
 img: assets/img/optunapi-logo.png
-importance: 3
+importance: 4
 category: research
 ---
 

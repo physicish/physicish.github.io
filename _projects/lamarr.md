@@ -1,9 +1,9 @@
 ---
 layout: page
-title: TorchGen
-description: Ready to use implementations of state-of-the-art generative models in PyTorch
-img: assets/img/torchgen-logo.png
-importance: 2
+title: Lamarr
+description: LHCb Ultra-Fast Simulation based on machine learning models deployed within Gauss
+img: assets/img/lamarr-logo.png
+importance: 1
 category: research
 ---
 
