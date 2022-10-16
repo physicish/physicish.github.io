@@ -1,7 +1,7 @@
 ---
 layout: page
 title: tf-gen-models
-description: Ready to use implementations of state-of-the-art generative models in TensorFlow 2
+description: Ready to use implementations of generative models in TF2
 img: assets/img/tfg-logo.png
 importance: 3
 category: research

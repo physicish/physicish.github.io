@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lamarr
-description: LHCb Ultra-Fast Simulation based on machine learning models deployed within Gauss
+description: Ultra-Fast Simulation option for the LHCb experiment
 img: assets/img/lamarr-logo.png
 importance: 1
 category: research
