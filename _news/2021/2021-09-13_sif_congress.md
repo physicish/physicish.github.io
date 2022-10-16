@@ -5,4 +5,4 @@ inline: true
 hide: false
 ---
 
-I have given a talk at the [107th SIF National Congress](https://en.sif.it/activities/congress/107) on the use of **GANs for Ultra-Fast Simulation** of the LHCb detector. Here is the [video](https://materiali.jmax.pics/materiale/simulating-the-lhcb-detector-with-generative-adversarial-networks/?u=2445) of my presentation [public access].
+I have given a talk at the [107th SIF National Congress](https://en.sif.it/activities/congress/107) on the use of **GANs for Ultra-Fast Simulation** of the LHCb detector.
