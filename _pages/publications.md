@@ -4,7 +4,7 @@ permalink: /publications
 title: publications
 description: publications by categories in reversed chronological order
 preprints_years: [2022]
-articles_years: [2022, 2021]
+articles_years: [2023, 2022, 2021]
 theses_years: [2020, 2017]
 nav: true
 nav_order: 1
