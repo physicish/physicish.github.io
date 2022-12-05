@@ -9,6 +9,8 @@ nav_order: 5
 
 🛠️ Page under construction!
 
+<!--
+
 <h3 class="mt-4">University of Florence</h3>
 
 <div class="card mt-3">
@@ -62,3 +64,5 @@ nav_order: 5
 <div class="col">
   <a href="/assets/pdf/teaching/writing_python_libraries.pdf">Some notes</a> on writing Python libraries.
 </div>
+
+-->
