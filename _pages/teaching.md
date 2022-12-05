@@ -2,15 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description:
+description: #classes, workshops, and teaching material
 nav: true
 ---
 
 🛠️ Page under construction!
 
-<!--
-
-<h3 class="mt-4">carnegie mellon university</h3>
+<h3 class="mt-4">University of Florence</h3>
 
 <div class="card mt-3">
   <div class="p-3">
@@ -63,5 +61,3 @@ nav: true
 <div class="col">
   <a href="/assets/pdf/teaching/writing_python_libraries.pdf">Some notes</a> on writing Python libraries.
 </div>
-
--->
