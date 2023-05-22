@@ -83,7 +83,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 orcid_id: 0000-0002-6704-6914
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: 4210045
+publons_id: #4210045
 osf_id: # your OSF ID
 research_gate_profile: Matteo-Barbetti
 scopus_id: # your profile on Scopus
