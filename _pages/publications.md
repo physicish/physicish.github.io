@@ -1,13 +1,16 @@
 ---
 layout: page
-permalink: /publications/
 title: publications
-description: publications by categories in reversed chronological order.
-preprints-years: [2022, 2021]
-articles-years:  [2022, 2021]
-theses-years:    [2020, 2017]
 nav: true
 nav_order: 1
+dropdown: true
+children: 
+    - title: preprints
+      permalink: /publications/preprints
+    - title: articles
+      permalink: /publications/articles
+    - title: theses
+      permalink: /publications/theses
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
