@@ -20,6 +20,13 @@ nav: true
       </tr>
     </thead>
     <tr>
+      <td data-title="Date">June 2022</td>
+      <td data-title="Project">Generative models in PyTorch</td>
+      <td data-title="Package"><a href="https://github.com/mbarbetti/torchgen">torchgen</a></td>
+      <td data-title="Status"><img src="https://img.shields.io/badge/dev-in%20progress-brightgreen?style=flat"></td>
+      <td data-title="GitHub"><a href="https://github.com/mbarbetti/torchgen/stargazers/"><img src="https://img.shields.io/github/stars/mbarbetti/torchgen?style=social"></a></td>
+    </tr>
+    <tr>
       <td data-title="Date">Jan 2022</td>
       <td data-title="Project">Generative models in TensorFlow 2</td>
       <td data-title="Package"><a href="https://github.com/mbarbetti/tf-gen-models">tf-gen-models</a></td>
