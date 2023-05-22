@@ -30,6 +30,7 @@
         <div class="title">{{entry.title}}</div>
         <!-- Author -->
         <div class="author">
+
         {%- if entry.collaboration -%}
           {%- assign collaboration = entry.collaboration -%}
           {%- assign collaboration_url = nil -%}
@@ -128,7 +129,7 @@
             {%- capture entrytype -%}{{entry.journal}} <strong>{{entry.volume}}</strong> ({{entry.year}}) {{entry.pages}} – Published on{%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{{entry.journal}} – Submitted on{%- endcapture -%}
-            {%- endif -%}
+          {%- endif -%}
         {%- elsif proceedings contains entry.type -%}
           {%- capture entrytype -%}in <em>{{entry.booktitle}}</em>, {{entry.series}} – Published on{%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
