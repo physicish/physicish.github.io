@@ -1,9 +1,9 @@
 ---
 layout: page
-title: TorchGen
-description: Ready to use implementations of generative models in PyTorch
-img: assets/img/torchgen-logo.png
-importance: 6
+title: Hopaas
+description: Hyperparameter Optimization as a Service
+img: assets/img/hopaas-logo.png
+importance: 2
 category: research
 ---
 
