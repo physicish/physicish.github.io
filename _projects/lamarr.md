@@ -1,9 +1,9 @@
 ---
 layout: page
-title: OptunAPI
-description: API to distribute hyperparameters optimization through HTTP requests
-img: assets/img/optunapi-logo.png
-importance: 4
+title: Lamarr
+description: LHCb Ultra-Fast Simulation based on machine learning models deployed within Gauss
+img: assets/img/lamarr-logo.png
+importance: 1
 category: research
 ---
 
