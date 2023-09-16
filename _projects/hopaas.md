@@ -3,7 +3,7 @@ layout: page
 title: Hopaas
 description: Hyperparameter Optimization as a Service
 img: assets/img/hopaas-logo.png
-importance: 2
+importance: 4
 category: research
 ---
 

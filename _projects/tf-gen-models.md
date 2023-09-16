@@ -3,7 +3,7 @@ layout: page
 title: tf-gen-models
 description: Ready to use implementations of generative models in TF2
 img: assets/img/tfg-logo.png
-importance: 3
+importance: 5
 category: research
 ---
 
