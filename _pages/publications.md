@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /publications
 title: publications
 description: publications by categories in reversed chronological order
 preprints_years: [2023]
@@ -40,5 +40,23 @@ children:
     <h2 class="year">{{y}}</h2>
     {%- bibliography -f theses -q @*[year={{y}}]* -%}
   {% endfor %}
+
+  <h2 class="pub-type">preprints</h2>
+    {%- for y in page.preprints_years -%}
+      <h2 class="year">{{y}}</h2>
+      {%- bibliography -f preprints -q @*[year={{y}}]* -%}
+    {%- endfor -%}
+
+  <h2 class="pub-type">conference & journal articles</h2>
+    {%- for y in page.articles_years -%}
+      <h2 class="year">{{y}}</h2>
+      {%- bibliography -f articles -q @*[year={{y}}]* -%}
+    {%- endfor -%}
+
+  <h2 class="pub-type">theses</h2>
+    {%- for y in page.theses_years -%}
+      <h2 class="year">{{y}}</h2>
+      {%- bibliography -f theses -q @*[year={{y}}]* -%}
+    {% endfor %}
 
 </div>
