@@ -9,12 +9,12 @@ On behalf of the INFN, I have helped in writing a science book for [Sassi Junior
 
 <div class="row mt-3 align-items-center justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sassijunior_book_ITA.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/news/sassijunior_book_ITA.jpg">
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sassijunior_book_ENG.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/news/sassijunior_book_ENG.jpg">
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sassijunior_book_FRA.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/news/sassijunior_book_FRA.jpg">
     </div>
 </div>

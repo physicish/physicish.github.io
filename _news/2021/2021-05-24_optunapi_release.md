@@ -10,7 +10,7 @@ hide: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/optunapi_v1.png">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/news/optunapi_v1.png">
     </div>
 </div>
 <div class="caption">
