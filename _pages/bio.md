@@ -4,6 +4,7 @@ permalink: /bio/
 title: bio
 description:
 nav: true
+nav_order: 2
 ---
 
 🛠️ Page under construction!

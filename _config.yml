@@ -78,7 +78,7 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: matteo-barbetti
 telegram_username: # your Telegram user name
 scholar_userid: Ufpa6SIAAAAJ
-semanticscholar_id: # your Semantic Scholar ID
+semanticscholar_id: #2154060732
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0002-6704-6914
 medium_username: # your Medium username
@@ -94,15 +94,16 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
+kaggle_id: #mbarbetti
 lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+instagram_id: #m.barbetz
+facebook_id: #100000182348198
+youtube_id: #matteobarbetti
 discord_id: # your discord id (18-digit unique numerical identifier)
+inspire_hep_id: 1908127
 
 contact_note: # >
   # You can even add a little note about which of these is the best way to reach you.
@@ -178,7 +179,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true

@@ -4,61 +4,41 @@ permalink: /code/
 title: code
 description:
 nav: true
+nav_order: 2
 ---
 
-🛠️ Page under construction!
+## GitHub users
 
-<div class="table-responsive-vertical shadow-z-1">
-  <table class="table table-hover table-mc-light-blue">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Project</th>
-        <th>Package</th>
-        <th>GitHub</th>
-      </tr>
-    </thead>
-    <!--
-    <tr>
-      <td data-title="Date">June 2022</td>
-      <td data-title="Project">Hyperparameter optimization as a service</td>
-      <td data-title="Package"><a href="https://github.com/landerlini/hopaas">hopaas</a></td>
-      <td data-title="GitHub"><a href="https://github.com/landerlini/hopaas/stargazers/"><img src="https://img.shields.io/github/stars/landerlini/hopaas?style=social"></a></td>
-    </tr>
-    -->
-    <tr>
-      <td data-title="Date">June 2022</td>
-      <td data-title="Project">Generative models in PyTorch</td>
-      <td data-title="Package"><a href="https://github.com/mbarbetti/torchgen">torchgen</a></td>
-      <td data-title="GitHub"><a href="https://github.com/mbarbetti/torchgen/stargazers/"><img src="https://img.shields.io/github/stars/mbarbetti/torchgen?style=social"></a></td>
-    </tr>
-    <tr>
-      <td data-title="Date">Jan 2022</td>
-      <td data-title="Project">Generative models in TensorFlow 2</td>
-      <td data-title="Package"><a href="https://github.com/mbarbetti/tf-gen-models">tf-gen-models</a></td>
-      <td data-title="GitHub"><a href="https://github.com/mbarbetti/tf-gen-models/stargazers/"><img src="https://img.shields.io/github/stars/mbarbetti/tf-gen-models?style=social"></a></td>
-    </tr>
-    <tr>
-      <td data-title="Date">Oct 2021</td>
-      <td data-title="Project">Parameterizations of the LHCb PID system</td>
-      <td data-title="Package"><a href="https://github.com/mbarbetti/lb-pidsim-train">lb-pidsim-train</a></td>
-      <td data-title="GitHub"><a href="https://github.com/mbarbetti/lb-pidsim-train/stargazers/"><img src="https://img.shields.io/github/stars/mbarbetti/lb-pidsim-train?style=social"></a></td>
-    </tr>
-    <tr>
-      <td data-title="Date">Jul 2021</td>
-      <td data-title="Project">Classification of bulky mediastinal lymphomas</td>
-      <td data-title="Package"><a href="https://github.com/mbarbetti/lymphoma-classification">lymphoma-classification</a></td>
-      <td data-title="GitHub"><a href="https://github.com/mbarbetti/lymphoma-classification/stargazers/"><img src="https://img.shields.io/github/stars/mbarbetti/lymphoma-classification?style=social"></a></td>
-    </tr>
-    <tr>
-      <td data-title="Date">Apr 2021</td>
-      <td data-title="Project">Distributed optimization through HTTP requests</td>
-      <td data-title="Package"><a href="https://github.com/mbarbetti/optunapi">optunapi</a></td>
-      <td data-title="GitHub"><a href="https://github.com/mbarbetti/optunapi/stargazers/"><img src="https://img.shields.io/github/stars/mbarbetti/optunapi?style=social"></a></td>
-    </tr>
-  </table>
+{% if site.data.repositories.github_users %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_users %}
+    {% include repository/repo_user.html username=user %}
+  {% endfor %}
 </div>
 
-<!-- 
-La pagina sembra mal-formattata perché è ancora vuota...
---->
+---
+
+{% if site.repo_trophies.enabled %}
+{% for user in site.data.repositories.github_users %}
+  {% if site.data.repositories.github_users.size > 1 %}
+    <h4>{{ user }}</h4>
+  {% endif %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo_trophies.html username=user %}
+  </div>
+
+  ---
+
+{% endfor %}
+{% endif %}
+{% endif %}
+
+## GitHub Repositories
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.html repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
