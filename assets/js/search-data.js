@@ -426,7 +426,7 @@ ninja.data = [{
           title: 'Started as an N3AS Postdoctoral Fellow at UC Berkeley :sparkles:',
           description: "",
           section: "News",},{id: "news-looking-for-remote-research-interns",
-          title: 'Looking for remote research interns!',
+          title: 'Looking for remote research interns 📢',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
