@@ -13,7 +13,7 @@
 email: ishmgupta@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: physicish # your GitHub user name
+#github_username: physicish # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -27,13 +27,13 @@ inspirehep_id: 2172746 # Inspire HEP author ID
 # linkedin_username: # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0001-9773-0816 # your ORCID ID
+orcid_id: 0000-0001-6932-8715 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: Gpafk68AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
