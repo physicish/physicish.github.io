@@ -419,11 +419,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-graduated-with-a-phd-in-physics-from-penn-state",
-          title: 'Graduated with a PhD in Physics from Penn State.',
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-started-as-an-n3as-postdoctoral-fellow-at-uc-berkeley-sparkles",
-          title: 'Started as an N3AS Postdoctoral Fellow at UC Berkeley :sparkles:',
+          section: "News",},{id: "news-graduated-with-a-phd-in-physics-from-penn-state",
+          title: 'Graduated with a PhD in Physics from Penn State.',
           description: "",
           section: "News",},{id: "news-looking-for-remote-research-interns",
           title: 'Looking for remote research interns!',
