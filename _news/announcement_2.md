@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Looking for remote research interns!
+title: Looking for remote research interns 📢
 date: 2025-09-14 08:00:00-0400
 inline: false
 related_posts: false
