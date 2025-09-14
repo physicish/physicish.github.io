@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated with a PhD in Physics from Penn State.
+Graduated with a PhD in Physics from Penn State 🎓
