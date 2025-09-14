@@ -1,33 +1,42 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Looking for remote research interns!
+date: 2025-09-14 08:00:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+## Remote Research Internship in Gravitational Wave Physics & Multi-Messenger Astronomy  
 
----
+Ever wondered what it’s like to chase ripples in space-time? 
+I am looking for **remote research interns** to join projects in **gravitational wave astrophysics and multi-messenger astronomy**.  
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+You’ll get to work on problems at the intersection of **data, physics, and discovery**, with plenty of coding, brainstorming, and hands-on science. Think of it as building tools to listen to the universe, and then telling its story.  
 
-#### Hipster list
+### Desired Skills  
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+**Mandatory**  
+1. Proficiency in **Python programming** (numerical libraries such as NumPy, SciPy, Matplotlib, etc.)  
+2. Comfort with the **Linux/Unix terminal** and command-line tools  
+3. Introductory understanding of **gravitational waves and their astrophysical sources**  
+4. Ability to write and format documents in **LaTeX**  
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+**Optional (nice to have)**  
+1. Experience with **gravitational-wave waveform modeling** or use of waveform libraries  
+2. Familiarity with **machine learning frameworks** (TensorFlow, PyTorch, etc.)  
+3. Basic knowledge of **Bayesian statistics** or data analysis methods  
+4. Experience with **version control systems (Gitlab/GitHub)**  
 
----
+### What You’ll Gain  
+- A front-row seat to cutting-edge research in gravitational wave physics 
+- Hands-on training in computational astrophysics (yes, lots of coding!)  
+- Mentorship and guidance as you develop your own research skills  
+- Experience writing **papers for leading journals** with opportunities to be a **lead author**  
+- Practice in **scientific writing with LaTeX** and real exposure to the publication process  
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+### Commitment  
+Flexible and remote. Expected commitment: **~8–10 hours per week** (negotiable).  
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+### How to Apply  
+Send me your **CV** (with relevant skills/projects) and a **short paragraph** explaining why this opportunity is a good fit for you. Email: ishmgupta [at] gmail [dot] com. If you are already part of the LVK Collaboration, hit me up on `chat.ligo.org` @ish.gupta.  
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
