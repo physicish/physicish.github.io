@@ -504,13 +504,6 @@ ninja.data = [{
           window.open("mailto:%69%73%68%6D%67%75%70%74%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/physicish", "_blank");
-        },
-      },{
         id: 'social-inspire',
         title: 'Inspire HEP',
         section: 'Socials',
@@ -522,14 +515,7 @@ ninja.data = [{
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0001-9773-0816", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://orcid.org/0000-0001-6932-8715", "_blank");
         },
       },{
         id: 'social-scholar',
