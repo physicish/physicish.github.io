@@ -1,9 +1,46 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# _data/venues.yml
+# Colors picked to pop on a dark theme while staying readable with light text.
 
-"PhysRev":
-  url: https://journals.aps.org/
+arXiv:
+  url: "https://arxiv.org/"
+  color: "#B91C1C"   # deep red
+
+ApJL:
+  url: "https://iopscience.iop.org/journal/2041-8205"
+  color: "#F59E0B"   # amber
+
+ApJ:
+  url: "https://iopscience.iop.org/journal/0004-637X"
+  color: "#D97706"   # orange
+
+PRD:
+  url: "https://journals.aps.org/prd/"
+  color: "#7C3AED"   # violet
+
+CQG:
+  url: "https://iopscience.iop.org/journal/0264-9381"
+  color: "#2563EB"   # blue
+
+SciPost:
+  url: "https://scipost.org/"
+  color: "#06B6D4"   # cyan
+
+FASS:
+  url: "https://www.frontiersin.org/journals/astronomy-and-space-sciences"
+  color: "#10B981"   # emerald
+
+JCAP:
+  url: "https://iopscience.iop.org/journal/1475-7516"
+  color: "#EC4899"   # pink
+
+MNRAS:
+  url: "https://academic.oup.com/mnras"
+  color: "#22C55E"   # green
+
+Thesis:
+  url: ""
+  color: "#94A3B8"   # slate
+
 
 "Vision":
   color: "#009f36"
