@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "For full CV, please email ishmgupta@gmail.com",
+          description: "For the full CV, please email ishmgupta [at] gmail [dot] com.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
