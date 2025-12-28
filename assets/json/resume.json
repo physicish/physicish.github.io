@@ -36,21 +36,21 @@
   "volunteer": [
     {
       "organization": "Association for India’s Development (AID) – Penn State chapter",
-      "location": "",
+      "location": "State College, PA, USA",
       "position": "Volunteer",
       "url": "",
       "startDate": "2022-01-01",
-      "endDate": "2025-12-31",
+      "endDate": "2023-12-31",
       "summary": "Volunteered with the Association for India’s Development (AID) – Penn State chapter.",
       "highlights": []
     },
     {
       "organization": "PAW Pals (Physics and Astronomy for Women+ / PAW+)",
-      "location": "",
+      "location": "State College, PA, USA",
       "position": "Volunteer",
       "url": "",
-      "startDate": "2022-01-01",
-      "endDate": "2025-12-31",
+      "startDate": "2023-08-01",
+      "endDate": "2025-05-31",
       "summary": "Volunteered for PAW Pals—an initiative by Physics and Astronomy for Women+ (PAW+).",
       "highlights": []
     }
@@ -78,7 +78,7 @@
     },
     {
       "organization": "Mini-Astro Workshop Series",
-      "location": "",
+      "location": "Youtube",
       "position": "Speaker",
       "url": "https://youtu.be/l85mLmWpUCg?si=tcYqhCrwcTgCQcTm",
       "startDate": "",
