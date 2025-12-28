@@ -29,7 +29,7 @@
       "url": "https://www.berkeley.edu/",
       "startDate": "2025-09-01",
       "endDate": "2027-08-31",
-      "summary": "N3AS Postdoctoral Fellow based in Berkeley, USA.",
+      "summary": "Currently visiting Northwestern University, IL, USA.",
       "highlights": []
     }
   ],
@@ -61,8 +61,8 @@
       "location": "State College, PA, USA",
       "position": "Speaker",
       "url": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "11",
+      "endDate": "2024",
       "summary": "A lecture on gravitational waves to high-school students.",
       "highlights": []
     },
@@ -71,8 +71,8 @@
       "location": "State College, PA, USA",
       "position": "Speaker",
       "url": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "01",
+      "endDate": "2025",
       "summary": "A public talk on gravitational waves at the Happy Valley Brewing Company.",
       "highlights": []
     },
@@ -81,8 +81,8 @@
       "location": "Youtube",
       "position": "Speaker",
       "url": "https://youtu.be/l85mLmWpUCg?si=tcYqhCrwcTgCQcTm",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "09",
+      "endDate": "2020",
       "summary": "Public lectures on gravitational waves as part of the Mini-Astro Workshop Series.",
       "highlights": []
     },
@@ -91,8 +91,8 @@
       "location": "",
       "position": "Outreach writer",
       "url": "https://ligo.org/science-summaries/GW241011-GW241110/",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "08",
+      "endDate": "2025",
       "summary": "Co-authored outreach article for the LIGO-Virgo-KAGRA Collaboration.",
       "highlights": []
     },
@@ -101,8 +101,8 @@
       "location": "",
       "position": "Outreach writer",
       "url": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "08",
+      "endDate": "2025",
       "summary": "Authored outreach article for LIGO India.",
       "highlights": []
     },
@@ -111,7 +111,7 @@
       "location": "Chicago, IL, USA",
       "position": "Astro Conversations speaker",
       "url": "",
-      "startDate": "2025-11-01",
+      "startDate": "2025",
       "endDate": "present",
       "summary": "",
       "highlights": []
@@ -126,7 +126,7 @@
     },
     {
       "name": "CIERA, Northwestern University (CIERA Colloquium)",
-      "location": "Evanston, IL, USA",
+      "location": "Evanston, USA",
       "host": "Vicky Kalogera",
       "date": "2025-09-30"
     },
@@ -144,7 +144,7 @@
     },
     {
       "name": "CIERA, Northwestern University (Theory Group Meeting)",
-      "location": "Evanston, IL, USA",
+      "location": "Evanston, USA",
       "host": "Sylvia Biscoveanu; Vicky Kalogera",
       "date": "2024-10-01"
     },
@@ -162,13 +162,13 @@
     },
     {
       "name": "Cardiff University",
-      "location": "Cardiff, Wales, UK",
+      "location": "Cardiff, UK",
       "host": "Stephen Fairhurst",
       "date": "2024-07-01"
     },
     {
       "name": "University of Glasgow",
-      "location": "Glasgow, Scotland, UK",
+      "location": "Glasgow, UK",
       "host": "Rachel Gray",
       "date": "2024-07-01"
     },
@@ -180,7 +180,7 @@
     },
     {
       "name": "Texas Tech University",
-      "location": "Lubbock, TX, USA",
+      "location": "Lubbock, USA",
       "host": "Alessandra Corsi",
       "date": "2024-04-01"
     },
