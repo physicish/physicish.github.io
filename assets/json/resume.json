@@ -201,9 +201,7 @@
       "startDate": "2020-08-01",
       "endDate": "2025-08-31",
       "score": "",
-      "courses": [
-        "Advisor: Prof. B.S. Sathyaprakash"
-      ]
+      "courses": ["Advisor: Prof. B.S. Sathyaprakash"]
     },
     {
       "institution": "BITS Pilani",
@@ -214,9 +212,7 @@
       "startDate": "2015-08-01",
       "endDate": "2020-07-31",
       "score": "",
-      "courses": [
-        "Mentor: Dr. Kinjal Banerjee"
-      ]
+      "courses": ["Mentor: Dr. Kinjal Banerjee"]
     }
   ],
   "awards": [
