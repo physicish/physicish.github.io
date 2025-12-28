@@ -25,7 +25,7 @@ latest_posts:
 
 I am an N3AS Postdoctoral Fellow at the University of California, Berkeley, and a Visiting Scholar at CIERA, Northwestern University.
 
-I earned my PhD in Physics from Penn State in August 2025 under the supervision of <a href="https://igc.psu.edu/people/bio/bss25/">Prof. B. Sathyaprakash</a>. My research focuses on the science unlocked by neutron star-black hole mergers. 
+I earned my PhD in Physics from Penn State in August 2025 under the supervision of <a href="https://igc.psu.edu/people/bio/bss25/">Prof. B. Sathyaprakash</a>. My research focuses on the science unlocked by neutron star-black hole mergers.
 
 In my <a href="https://etda.libraries.psu.edu/catalog/21079img5156">dissertation</a>, I demonstrated the detectability of these sources, quantified how well their parameters can be measured, and highlighted their multi-messenger potential. I further showed that neutron star-black hole mergers can serve as powerful cosmic probes, enabling <em>sub-percent</em> measurements of the universe’s expansion rate.
 
