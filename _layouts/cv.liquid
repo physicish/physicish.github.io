@@ -115,6 +115,10 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
+                {% when 'outreach' %}
+                  {% include resume/outreach.liquid data=data %}
+                {% when 'visits' %}
+                  {% include resume/visits.liquid data=data %}
                 {% else %}
 
               {% endcase %}
