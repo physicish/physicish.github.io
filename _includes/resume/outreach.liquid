@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign outreach = data[1] | sort: 'startDate' | reverse %}
+  {% assign outreach = data | sort: 'startDate' | reverse %}
   {% for content in outreach %}
     <li class="list-group-item">
       <div class="row">
