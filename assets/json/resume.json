@@ -33,6 +33,30 @@
       "highlights": []
     }
   ],
+  "education": [
+    {
+      "institution": "Pennsylvania State University",
+      "location": "Pennsylvania, USA",
+      "url": "https://www.psu.edu/",
+      "area": "Physics",
+      "studyType": "PhD",
+      "startDate": "2020-08-01",
+      "endDate": "2025-08-31",
+      "score": "",
+      "courses": ["Advisor: Prof. B.S. Sathyaprakash"]
+    },
+    {
+      "institution": "BITS Pilani",
+      "location": "Goa, India",
+      "url": "https://www.bits-pilani.ac.in/",
+      "area": "Physics; Chemical Engineering",
+      "studyType": "Integrated MSc (Physics) & BE (Chemical Engineering)",
+      "startDate": "2015-08-01",
+      "endDate": "2020-07-31",
+      "score": "",
+      "courses": ["Mentor: Dr. Kinjal Banerjee"]
+    }
+  ],
   "volunteer": [
     {
       "organization": "Association for India’s Development (AID) – Penn State chapter",
@@ -189,30 +213,6 @@
       "location": "Bangalore, India",
       "host": "P Ajith",
       "date": "2023-08-01"
-    }
-  ],
-  "education": [
-    {
-      "institution": "Pennsylvania State University",
-      "location": "Pennsylvania, USA",
-      "url": "https://www.psu.edu/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "2020-08-01",
-      "endDate": "2025-08-31",
-      "score": "",
-      "courses": ["Advisor: Prof. B.S. Sathyaprakash"]
-    },
-    {
-      "institution": "BITS Pilani",
-      "location": "Goa, India",
-      "url": "https://www.bits-pilani.ac.in/",
-      "area": "Physics; Chemical Engineering",
-      "studyType": "Integrated MSc (Physics) & BE (Chemical Engineering)",
-      "startDate": "2015-08-01",
-      "endDate": "2020-07-31",
-      "score": "",
-      "courses": ["Mentor: Dr. Kinjal Banerjee"]
     }
   ],
   "awards": [
