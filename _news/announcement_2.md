@@ -9,7 +9,7 @@ related_posts: false
 ## Remote Research Internship in Gravitational Wave Physics & Multi-Messenger Astronomy
 
 Ever wondered what it’s like to chase ripples in space-time?
-I am looking for **remote research interns** to join projects in **gravitational wave astrophysics and multi-messenger astronomy**.
+I am seeking **remote research interns** (or Northwestern undergraduates) to join projects in **gravitational wave astrophysics and multi-messenger astronomy**.
 
 You’ll get to work on problems at the intersection of **data, physics, and discovery**, with plenty of coding, brainstorming, and hands-on science. Think of it as building tools to listen to the universe, and then telling its story.
 
@@ -19,15 +19,15 @@ You’ll get to work on problems at the intersection of **data, physics, and dis
 
 1. Proficiency in **Python programming** (numerical libraries such as NumPy, SciPy, Matplotlib, etc.)
 2. Comfort with the **Linux/Unix terminal** and command-line tools
-3. Introductory understanding of **gravitational waves and their astrophysical sources**
-4. Ability to write and format documents in **LaTeX**
+3. Ability to write and format documents in **LaTeX**
 
 **Optional (nice to have)**
 
-1. Experience with **gravitational-wave waveform modeling** or use of waveform libraries
-2. Familiarity with **machine learning frameworks** (TensorFlow, PyTorch, etc.)
-3. Basic knowledge of **Bayesian statistics** or data analysis methods
-4. Experience with **version control systems (Gitlab/GitHub)**
+1. Introductory understanding of **gravitational waves and their astrophysical sources**
+2. Experience with **gravitational-wave waveform modeling** or use of waveform libraries
+3. Familiarity with **machine learning frameworks** (TensorFlow, PyTorch, etc.)
+4. Basic knowledge of **Bayesian statistics** or data analysis methods
+5. Experience with **version control systems (Gitlab/GitHub)**
 
 ### What You’ll Gain
 
